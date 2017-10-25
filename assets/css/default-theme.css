@@ -134,6 +134,7 @@ a,
     color: #fff;
 }
 
+
 @media (min-width: 768px) {
     .c-nav_s-underline.menuzord-menu > li.active > a,
     .c-nav_s-underline.menuzord-menu > li:hover > a {
