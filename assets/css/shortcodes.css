@@ -1145,7 +1145,7 @@ dl.toggle.time-line:before {
 
 .promo-parallax {
     height: auto;
-    background-image: url(../img/parallax/promo_para.jpg);
+    background-image: url(../img/banner.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
 }
@@ -2704,6 +2704,14 @@ dl.toggle.time-line:before {
     width: 25%;
 }
 
+.clients.grid-4 li img {
+    display: block;
+    width: 75%;
+    margin-right: auto; 
+    margin-left: auto;
+    vertical-align: middle;
+}
+
 .clients.grid-5 li {
     width: 20%;
 }
@@ -3244,7 +3252,7 @@ dl.toggle.time-line:before {
     line-height: 20px;
 }
 
-.massive-progress .progress-bar > span {
+.massive-progress .progress-bar > span {z
     position: absolute;
     top: -28px;
     right: -5px;
@@ -3827,8 +3835,16 @@ h3.timeline-title {
     color: #222;
 }
 
+.timeline-parallaxv2 {
+    background-image: url("../img/optimize.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .timeline-parallax {
-    background-image: url("../img/parallax/t-parallax.jpg");
+    background-image: url("../img/landing.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
