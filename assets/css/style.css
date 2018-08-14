@@ -77,7 +77,8 @@
   border: 1px solid #faa;
   color: #fff;
   display: block;
-  font: bold 81.25% 'Source Sans Pro', sans-serif;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif
   margin: 1px 0;
   padding: 10px 50px;
   text-align: center;
@@ -219,11 +220,11 @@ span.info {
  ===============================================*/
 body {
     color: #323232;
-    font-family: "Source Sans Pro", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-
+    font-family: 'Abel', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
        -moz-font-smoothing: antialiased; 
     text-rendering: optimizeLegibility;
@@ -3033,7 +3034,7 @@ header.sticky .logo-brand,
     text-transform: uppercase;
     color: #333;
     /*font: normal 60px/1.5 'Abel', sans-serif;*/
-    font: normal 60px/1.5 "Source Sans Pro", sans-serif;
+    font: normal 60px/1.5 "Abel", sans-serif;
     font-weight: 300;
 }
 
@@ -4210,7 +4211,7 @@ blog-masonry
     margin: 5px 0 0 0;
     text-transform: none;
     color: #757575;
-    font-family: "Source Sans Pro", sans-serif;
+    /*font-family: "Source Sans Pro", sans-serif;*/
     font-size: 14px;
     font-weight: normal;
     line-height: 26px;
@@ -6363,6 +6364,7 @@ Table of contents
     .banner-box h1,
     .banner-title h1 {
         font-size: 30px;
+        padding-bottom: 5px;
     }
     .banner-box h3,
     .banner-title h3,
