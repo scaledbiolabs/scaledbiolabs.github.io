@@ -3391,8 +3391,13 @@ dl.toggle.time-line:before {
     list-style: none;
 }
 
+ul {
+  list-style-position: outside;
+}
+
 .icon-list li {
     line-height: 30px;
+    list-style-position: outside;
 }
 
 .icon-list li i {
@@ -4168,7 +4173,7 @@ a.show-detail:after {
 }
 
 .career-details-info .c-list-row .info {
-    padding-left: 100px;
+    padding-left: 10px;
     color: #7e7e7e; 
     font-size: 14px;
 }
