@@ -54,6 +54,10 @@
  Pre Loader
  ===============================================*/
 
+.hoverover:hover{
+color: green
+}
+
 
 .ribbon {
   background-color: #a00;
